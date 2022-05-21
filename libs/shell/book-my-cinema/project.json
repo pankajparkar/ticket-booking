@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/shell/book-my-cinema/src",
+  "prefix": "ticket-booking",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shell/book-my-cinema"],
+      "options": {
+        "jestConfig": "libs/shell/book-my-cinema/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shell/book-my-cinema/**/*.ts",
+          "libs/shell/book-my-cinema/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

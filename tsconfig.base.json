@@ -34,6 +34,12 @@
       "@ticket-booking/movies/ui/slider": [
         "libs/movies/ui/slider/src/index.ts"
       ],
+      "@ticket-booking/shell/book-my-cinema": [
+        "libs/shell/book-my-cinema/src/index.ts"
+      ],
+      "@ticket-booking/shell/ticket-admin": [
+        "libs/shell/ticket-admin/src/index.ts"
+      ],
       "@ticket-booking/showtimes/features/manage": [
         "libs/showtimes/features/manage/src/index.ts"
       ],
