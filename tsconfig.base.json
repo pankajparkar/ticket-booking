@@ -15,6 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ticket-booking/movies/feature/home": [
+        "libs/movies/feature/home/src/index.ts"
+      ],
+      "@ticket-booking/movies/feature/movies": [
+        "libs/movies/feature/movies/src/index.ts"
+      ],
       "@ticket-booking/ticket-booking-library": [
         "libs/ticket-booking-library/src/index.ts"
       ]

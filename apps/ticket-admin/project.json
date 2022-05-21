@@ -2,7 +2,7 @@
   "projectType": "application",
   "sourceRoot": "apps/ticket-admin/src",
   "prefix": "bmc",
-  "schematics": {
+  "generators": {
     "@schematics/angular:component": {
       "style": "sass"
     },

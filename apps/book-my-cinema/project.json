@@ -2,7 +2,7 @@
   "projectType": "application",
   "sourceRoot": "apps/book-my-cinema/src",
   "prefix": "bmc",
-  "schematics": {
+  "generators": {
     "@schematics/angular:component": {
       "style": "sass"
     },
