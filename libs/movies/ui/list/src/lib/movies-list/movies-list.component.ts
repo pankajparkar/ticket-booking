@@ -1,7 +1,7 @@
 import { DatabaseService } from '@ticket-booking/ticket-booking-library';
 import { Movie } from '@ticket-booking/ticket-booking-library';
 import { Component, OnInit, Input, SimpleChanges, OnChanges, TemplateRef } from '@angular/core';
-import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platform-browser';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 @Component({
