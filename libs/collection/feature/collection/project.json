@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/collection/feature/collection/src",
+  "prefix": "ticket-booking",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/collection/feature/collection"],
+      "options": {
+        "jestConfig": "libs/collection/feature/collection/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/collection/feature/collection/**/*.ts",
+          "libs/collection/feature/collection/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

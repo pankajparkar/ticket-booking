@@ -15,11 +15,23 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ticket-booking/collection/feature/collection": [
+        "libs/collection/feature/collection/src/index.ts"
+      ],
+      "@ticket-booking/dashboard/feature/dashboard": [
+        "libs/dashboard/feature/dashboard/src/index.ts"
+      ],
+      "@ticket-booking/movies/feature/details": [
+        "libs/movies/feature/details/src/index.ts"
+      ],
       "@ticket-booking/movies/feature/home": [
         "libs/movies/feature/home/src/index.ts"
       ],
       "@ticket-booking/movies/feature/movies": [
         "libs/movies/feature/movies/src/index.ts"
+      ],
+      "@ticket-booking/showtimes/features/manage": [
+        "libs/showtimes/features/manage/src/index.ts"
       ],
       "@ticket-booking/ticket-booking-library": [
         "libs/ticket-booking-library/src/index.ts"

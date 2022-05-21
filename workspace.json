@@ -4,8 +4,12 @@
   "projects": {
     "book-my-cinema": "apps/book-my-cinema",
     "book-my-cinema-e2e": "apps/book-my-cinema-e2e",
+    "collection-feature-collection": "libs/collection/feature/collection",
+    "dashboard-feature-dashboard": "libs/dashboard/feature/dashboard",
+    "movies-feature-details": "libs/movies/feature/details",
     "movies-feature-home": "libs/movies/feature/home",
     "movies-feature-movies": "libs/movies/feature/movies",
+    "showtimes-features-manage": "libs/showtimes/features/manage",
     "ticket-admin": "apps/ticket-admin",
     "ticket-admin-e2e": "apps/ticket-admin-e2e",
     "ticket-booking-library": "libs/ticket-booking-library"
