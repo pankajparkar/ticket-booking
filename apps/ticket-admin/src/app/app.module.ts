@@ -9,7 +9,6 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { InMemoryDataService, DatabaseService } from '@ticket-booking/ticket-booking-library';
-import { MoviesSliderComponent } from './components/movies-slider/movies-slider.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { CollectionComponent } from './components/collection/collection.component';
@@ -22,7 +21,6 @@ import { SharedModule, PipesModule } from '@ticket-booking/ticket-booking-librar
 @NgModule({
   declarations: [
     AppComponent,
-    MoviesSliderComponent,
     DashboardComponent,
     CollectionComponent,
     ManageShowtimesComponent,
