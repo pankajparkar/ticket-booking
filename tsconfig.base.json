@@ -52,6 +52,7 @@
       ],
       "@ticket-booking/shared/models": ["libs/shared/models/src/index.ts"],
       "@ticket-booking/shared/pipes": ["libs/shared/pipes/src/index.ts"],
+      "@ticket-booking/shared/services": ["libs/shared/services/src/index.ts"],
       "@ticket-booking/shared/ui/footer": [
         "libs/shared/ui/footer/src/index.ts"
       ],
@@ -72,9 +73,6 @@
       ],
       "@ticket-booking/showtimes/features/manage": [
         "libs/showtimes/features/manage/src/index.ts"
-      ],
-      "@ticket-booking/ticket-booking-library": [
-        "libs/ticket-booking-library/src/index.ts"
       ]
     }
   },

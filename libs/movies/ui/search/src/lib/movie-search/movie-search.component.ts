@@ -1,4 +1,4 @@
-import { DatabaseService } from 'ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/shared/services';
 import { Subject } from 'rxjs';
 import { Component } from '@angular/core';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';

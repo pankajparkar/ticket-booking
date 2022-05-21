@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, HostBinding, Input, TemplateRef } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
-import { Movie } from 'ticket-booking-library';
+import { Movie } from '@ticket-booking/shared/models';
 
 @Component({
   selector: 'bmc-movie-preview-card',

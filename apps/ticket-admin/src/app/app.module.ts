@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
-import { InMemoryDataService, DatabaseService } from '@ticket-booking/ticket-booking-library';
+import { InMemoryDataService, DatabaseService } from '@ticket-booking/shared/services';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { SharedUiNavbarModule } from '@ticket-booking/shared/ui/navbar';

@@ -1,4 +1,4 @@
-import { DatabaseService } from '@ticket-booking/ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/shared/services';
 import { Movie } from '@ticket-booking/shared/models';
 import { Component, OnInit, Input, SimpleChanges, OnChanges, TemplateRef } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';

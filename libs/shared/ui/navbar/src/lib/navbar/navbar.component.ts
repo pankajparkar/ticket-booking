@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { NavLink } from 'ticket-booking-library';
+import { NavLink } from '@ticket-booking/shared/models';
 
 @Component({
   selector: 'bmc-navbar',

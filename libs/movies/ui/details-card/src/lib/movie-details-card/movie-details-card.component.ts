@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { Movie } from 'ticket-booking-library';
+import { Movie } from '@ticket-booking/shared/models';
 
 @Component({
   selector: 'bmc-movie-details-card',

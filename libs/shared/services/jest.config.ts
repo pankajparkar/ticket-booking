@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
-  displayName: '@ticket-booking/ticket-booking-library',
-  preset: '../../jest.preset.js',
+  displayName: 'shared-services',
+  preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
     'ts-jest': {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/libs/ticket-booking-library',
+  coverageDirectory: '../../../coverage/libs/shared/services',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

@@ -1,5 +1,5 @@
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
-import { DatabaseService } from '@ticket-booking/ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/shared/services';
 import { Component, TemplateRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 

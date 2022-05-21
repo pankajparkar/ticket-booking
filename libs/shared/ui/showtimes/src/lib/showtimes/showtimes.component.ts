@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, SimpleChanges, OnChanges, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { Movie, ShowtimeDate, DatabaseService } from 'ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/shared/services';
+import { Movie, ShowtimeDate } from '@ticket-booking/shared/models';
 
 @Component({
   selector: 'bmc-showtimes',

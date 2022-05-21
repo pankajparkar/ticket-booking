@@ -1,4 +1,4 @@
-import { DatabaseService } from 'ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/shared/services';
 import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { BsModalService } from 'ngx-bootstrap/modal';
