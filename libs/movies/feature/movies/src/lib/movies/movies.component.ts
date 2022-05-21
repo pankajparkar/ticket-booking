@@ -1,4 +1,4 @@
-import { FilterDate } from '@ticket-booking/ticket-booking-library';
+import { FilterDate } from '@ticket-booking/shared/models';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

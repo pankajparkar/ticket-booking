@@ -1,15 +1,11 @@
-import { Showtime } from '../models/showtime';
+import { Database, ShowtimeDate } from '@ticket-booking/shared/models';
 import { Injectable } from '@angular/core';
 import { InMemoryDbService } from 'angular-in-memory-web-api';
-// import mockData from './mock-data.json';
-import { Database, ShowtimeDate } from '../models';
 
 @Injectable({
   providedIn: 'root'
 })
 export class InMemoryDataService implements InMemoryDbService {
-
-  constructor() { }
 
   createDb() {
     const data: Database = this.getMockData();

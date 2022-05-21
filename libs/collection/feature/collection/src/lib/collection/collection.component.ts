@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { DatabaseService } from '@ticket-booking/ticket-booking-library';
 
 @Component({
@@ -7,15 +7,12 @@ import { DatabaseService } from '@ticket-booking/ticket-booking-library';
   styleUrls: ['./collection.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CollectionComponent implements OnInit {
+export class CollectionComponent {
 
   movies$ = this.db.getMovies(100);
 
   constructor(
     private db: DatabaseService,
   ) { }
-
-  ngOnInit(): void {
-  }
 
 }
