@@ -9,7 +9,6 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { SharedModule, PipesModule } from '@ticket-booking/ticket-booking-library'
 import { ShellBookMyTicketModule } from '@ticket-booking/shell/book-my-cinema'

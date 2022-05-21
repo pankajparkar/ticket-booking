@@ -4,6 +4,8 @@
   "projects": {
     "book-my-cinema": "apps/book-my-cinema",
     "book-my-cinema-e2e": "apps/book-my-cinema-e2e",
+    "charts-number-chart": "libs/charts/number-chart",
+    "charts-vertical-bar-chart": "libs/charts/vertical-bar-chart",
     "collection-feature-collection": "libs/collection/feature/collection",
     "dashboard-feature-dashboard": "libs/dashboard/feature/dashboard",
     "movies-feature-details": "libs/movies/feature/details",

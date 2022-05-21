@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/charts/vertical-bar-chart/src",
+  "prefix": "ticket-booking",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/charts/vertical-bar-chart"],
+      "options": {
+        "jestConfig": "libs/charts/vertical-bar-chart/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/charts/vertical-bar-chart/**/*.ts",
+          "libs/charts/vertical-bar-chart/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

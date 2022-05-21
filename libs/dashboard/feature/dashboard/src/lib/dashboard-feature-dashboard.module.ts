@@ -1,7 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { PipesModule, SharedModule } from '@ticket-booking/ticket-booking-library';
+import { MoviesUiSliderModule } from '@ticket-booking/movies/ui/slider';
+import { RouterModule } from '@angular/router';
+
+import { ChartsNumberChartModule } from '@ticket-booking/charts/number-chart';
+import { ChartsVerticalBarChartModule } from '@ticket-booking/charts/vertical-bar-chart';
 
 @NgModule({
-  imports: [CommonModule],
+  declarations: [DashboardComponent],
+  exports: [DashboardComponent],
+  imports: [
+    CommonModule,
+    SharedModule,
+    PipesModule,
+    MoviesUiSliderModule,
+    RouterModule,
+    ChartsNumberChartModule,
+    ChartsVerticalBarChartModule,
+  ],
 })
-export class DashboardFeatureDashboardModule {}
+export class DashboardFeatureDashboardModule { }

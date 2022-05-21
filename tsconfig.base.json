@@ -15,6 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ticket-booking/charts/number-chart": [
+        "libs/charts/number-chart/src/index.ts"
+      ],
+      "@ticket-booking/charts/vertical-bar-chart": [
+        "libs/charts/vertical-bar-chart/src/index.ts"
+      ],
       "@ticket-booking/collection/feature/collection": [
         "libs/collection/feature/collection/src/index.ts"
       ],

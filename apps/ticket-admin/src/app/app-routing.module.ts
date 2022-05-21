@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { CollectionComponent } from './components/collection/collection.component';
-import { ManageShowtimesComponent } from './components/manage-showtimes/manage-showtimes.component';
+import { DashboardComponent } from '@ticket-booking/dashboard/feature/dashboard';
+import { CollectionComponent } from '@ticket-booking/collection/feature/collection';
+import { ManageShowtimesComponent } from '@ticket-booking/showtimes/features/manage';
 import { MovieDetailComponent } from '@ticket-booking/movies/feature/details';
 
 const routes: Routes = [
