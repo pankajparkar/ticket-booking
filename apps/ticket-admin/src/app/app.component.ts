@@ -1,10 +1,18 @@
 import { Component } from '@angular/core';
+import { NavLink } from 'ticket-booking-library';
 
 @Component({
-  selector: 'ticket-booking-root',
+  selector: 'bmc-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass'],
+  styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'ticket-admin';
+
+  title = 'Ticket Admin';
+
+  navLinks: NavLink[] = [
+    { link: '/', name: 'Dashboard' },
+    { link: '/collection', name: '$ Collection' },
+    { link: '/manage-showtimes', name: 'Manage Showtimes' },
+  ]
 }

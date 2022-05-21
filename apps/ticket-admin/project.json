@@ -1,7 +1,15 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/ticket-admin/src",
-  "prefix": "ticket-booking",
+  "prefix": "bmc",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "sass"
+    },
+    "@schematics/angular:application": {
+      "strict": true
+    }
+  },
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
@@ -17,7 +25,11 @@
           "apps/ticket-admin/src/favicon.ico",
           "apps/ticket-admin/src/assets"
         ],
-        "styles": ["apps/ticket-admin/src/styles.sass"],
+        "styles": [
+          "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+          "apps/ticket-admin/src/styles.sass"
+        ],
         "scripts": []
       },
       "configurations": {
