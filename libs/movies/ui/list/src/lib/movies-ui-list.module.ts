@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PipesModule, SharedModule } from '@ticket-booking/ticket-booking-library';
+import { PipesModule } from '@ticket-booking/shared/pipes';
 import { MoviesListComponent } from './movies-list/movies-list.component';
 import { RouterModule } from '@angular/router';
 
@@ -13,7 +13,6 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    SharedModule,
     PipesModule,
     RouterModule,
   ],

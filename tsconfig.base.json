@@ -50,6 +50,7 @@
       "@ticket-booking/movies/ui/slider": [
         "libs/movies/ui/slider/src/index.ts"
       ],
+      "@ticket-booking/shared/pipes": ["libs/shared/pipes/src/index.ts"],
       "@ticket-booking/shared/ui/footer": [
         "libs/shared/ui/footer/src/index.ts"
       ],

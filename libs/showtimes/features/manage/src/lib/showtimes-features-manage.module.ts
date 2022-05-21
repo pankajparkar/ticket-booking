@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PipesModule, SharedModule } from 'ticket-booking-library';
+import { PipesModule } from '@ticket-booking/shared/pipes';
 import { ManageShowtimesComponent } from './manage-showtimes/manage-showtimes.component';
+import { SharedUiShowtimesModule } from '@ticket-booking/shared/ui/showtimes';
+import { MoviesUiPreviewCardModule } from '@ticket-booking/movies/ui/preview-card';
 
 @NgModule({
   declarations: [
@@ -12,8 +14,9 @@ import { ManageShowtimesComponent } from './manage-showtimes/manage-showtimes.co
   ],
   imports: [
     CommonModule,
-    SharedModule,
     PipesModule,
+    SharedUiShowtimesModule,
+    MoviesUiPreviewCardModule,
   ],
 })
 export class ShowtimesFeaturesManageModule { }

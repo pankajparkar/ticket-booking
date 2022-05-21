@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { PipesModule } from './pipes/pipes.module';
+import { PipesModule } from '@ticket-booking/shared/pipes';
 
 @NgModule({
   imports: [

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PipesModule } from 'ticket-booking-library';
+import { PipesModule } from '@ticket-booking/shared/pipes';
 import { MoviesSliderComponent } from './movies-slider/movies-slider.component';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-bootstrap/carousel';

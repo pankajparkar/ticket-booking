@@ -17,6 +17,7 @@
     "movies-ui-preview-card": "libs/movies/ui/preview-card",
     "movies-ui-search": "libs/movies/ui/search",
     "movies-ui-slider": "libs/movies/ui/slider",
+    "shared-pipes": "libs/shared/pipes",
     "shared-ui-footer": "libs/shared/ui/footer",
     "shared-ui-golden-text": "libs/shared/ui/golden-text",
     "shared-ui-navbar": "libs/shared/ui/navbar",

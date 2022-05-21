@@ -10,7 +10,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 
-import { SharedModule, PipesModule } from '@ticket-booking/ticket-booking-library'
+import { PipesModule } from '@ticket-booking/shared/pipes';
+
 import { ShellBookMyTicketModule } from '@ticket-booking/shell/book-my-cinema'
 
 @NgModule({
@@ -22,14 +23,12 @@ import { ShellBookMyTicketModule } from '@ticket-booking/shell/book-my-cinema'
     BrowserAnimationsModule,
     ShellBookMyTicketModule,
     ModalModule.forRoot(),
-    SharedModule,
     PipesModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     ),
     CarouselModule.forRoot(),
-    NgxChartsModule,
   ],
   providers: [DatabaseService],
   bootstrap: [AppComponent],

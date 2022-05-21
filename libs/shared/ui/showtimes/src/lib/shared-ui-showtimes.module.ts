@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ShowtimesComponent } from './showtimes/showtimes.component';
-import { PipesModule } from 'ticket-booking-library';
+import { PipesModule } from '@ticket-booking/shared/pipes';
 
 @NgModule({
   declarations: [ShowtimesComponent],

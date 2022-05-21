@@ -11,7 +11,6 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { InMemoryDataService, DatabaseService } from '@ticket-booking/ticket-booking-library';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-import { PipesModule } from '@ticket-booking/ticket-booking-library';
 import { SharedUiNavbarModule } from '@ticket-booking/shared/ui/navbar';
 import { SharedUiFooterModule } from '@ticket-booking/shared/ui/footer';
 
@@ -26,7 +25,6 @@ import { SharedUiFooterModule } from '@ticket-booking/shared/ui/footer';
     SharedUiNavbarModule,
     SharedUiFooterModule,
     ModalModule.forRoot(),
-    PipesModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
