@@ -1,9 +1,8 @@
-import { HomeComponent } from './components/home/home.component';
-// import { MovieDetailComponent } from './shared/movie-detail/movie-detail.component';
+import { HomeComponent } from '@ticket-booking/movies/feature/home';
 import { MovieDetailComponent } from '@ticket-booking/ticket-booking-library'
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MoviesComponent } from './components/movies/movies.component';
+import { MoviesComponent } from '@ticket-booking/movies/feature/movies';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },

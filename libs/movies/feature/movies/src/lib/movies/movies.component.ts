@@ -1,5 +1,5 @@
 import { FilterDate } from '@ticket-booking/ticket-booking-library';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'bmc-movies',
@@ -8,9 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MoviesComponent implements OnInit {
   filters: FilterDate[] = [];
-  selectedDate: string = '';
-
-  constructor() { }
+  selectedDate = '';
 
   ngOnInit() {
     this.getFilters();

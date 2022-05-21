@@ -4,8 +4,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MoviesComponent } from './components/movies/movies.component';
-import { HomeComponent } from './components/home/home.component';
 import { DatabaseService, InMemoryDataService } from '@ticket-booking/ticket-booking-library';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -21,8 +19,6 @@ import { SharedModule, PipesModule } from '@ticket-booking/ticket-booking-librar
 @NgModule({
   declarations: [
     AppComponent,
-    MoviesComponent,
-    HomeComponent,
     MoviesListComponent,
     MoviesSliderComponent,
   ],
