@@ -1,7 +1,15 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/book-my-cinema/src",
-  "prefix": "ticket-booking",
+  "prefix": "bmc",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "sass"
+    },
+    "@schematics/angular:application": {
+      "strict": true
+    }
+  },
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
@@ -17,7 +25,11 @@
           "apps/book-my-cinema/src/favicon.ico",
           "apps/book-my-cinema/src/assets"
         ],
-        "styles": ["apps/book-my-cinema/src/styles.sass"],
+        "styles": [
+          "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+          "apps/book-my-cinema/src/styles.sass"
+        ],
         "scripts": []
       },
       "configurations": {

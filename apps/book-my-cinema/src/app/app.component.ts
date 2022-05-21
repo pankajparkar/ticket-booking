@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
+import { NavLink } from 'ticket-booking-library';
 
 @Component({
-  selector: 'ticket-booking-root',
+  selector: 'bmc-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass'],
+  styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'book-my-cinema';
+
+  title = 'Angular-Cinema';
+  navLinks: NavLink[] = [
+    { link: '/', name: 'Home' },
+    { link: '/movies', name: 'Movies' },
+  ];
 }
