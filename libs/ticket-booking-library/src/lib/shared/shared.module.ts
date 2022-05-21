@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 
 import { ModalModule } from 'ngx-bootstrap/modal';
 
-import { MovieDetailComponent } from '../shared/movie-detail/movie-detail.component';
 import { MovieDetailsCardComponent } from '../shared/movie-details-card/movie-details-card.component';
 import { GoldenTextComponent } from '../shared/golden-text/golden-text.component';
 import { MoviePreviewCardComponent } from '../shared/movie-preview-card/movie-preview-card.component';
@@ -16,7 +15,6 @@ import { FooterComponent } from '../shared/footer/footer.component';
 import { PipesModule } from '../pipes/pipes.module';
 
 const sharedComponents = [
-  MovieDetailComponent,
   MovieDetailsCardComponent,
   GoldenTextComponent,
   MoviePreviewCardComponent,

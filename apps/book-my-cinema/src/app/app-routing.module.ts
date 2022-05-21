@@ -1,5 +1,5 @@
 import { HomeComponent } from '@ticket-booking/movies/feature/home';
-import { MovieDetailComponent } from '@ticket-booking/ticket-booking-library'
+import { MovieDetailComponent } from '@ticket-booking/movies/feature/details'
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MoviesComponent } from '@ticket-booking/movies/feature/movies';

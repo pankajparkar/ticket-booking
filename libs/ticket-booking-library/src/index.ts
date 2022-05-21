@@ -4,7 +4,6 @@ export * from './lib/services';
 export * from './lib/shared/shared.module';
 export * from './lib/pipes/pipes.module';
 
-export * from './lib/shared/movie-detail/movie-detail.component';
 export * from './lib/shared/movie-details-card/movie-details-card.component';
 export * from './lib/shared/golden-text/golden-text.component';
 export * from './lib/shared/movie-preview-card/movie-preview-card.component';
