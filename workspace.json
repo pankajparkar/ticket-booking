@@ -1,5 +1,11 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "book-my-ticket": "apps/book-my-ticket",
+    "book-my-ticket-e2e": "apps/book-my-ticket-e2e",
+    "ticket-admin": "apps/ticket-admin",
+    "ticket-admin-e2e": "apps/ticket-admin-e2e",
+    "ticket-booking-library": "libs/ticket-booking-library"
+  }
 }

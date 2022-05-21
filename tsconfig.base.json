@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ticket-booking/ticket-booking-library": [
+        "libs/ticket-booking-library/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
