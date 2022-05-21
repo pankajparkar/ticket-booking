@@ -1,4 +1,4 @@
-import { FilterDate } from 'ticket-booking-library';
+import { FilterDate } from '@ticket-booking/ticket-booking-library';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'ticket-booking-library',
+  displayName: '@ticket-booking/ticket-booking-library',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {

@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './components/movies/movies.component';
 import { HomeComponent } from './components/home/home.component';
-import { DatabaseService, InMemoryDataService } from 'ticket-booking-library';
+import { DatabaseService, InMemoryDataService } from '@ticket-booking/ticket-booking-library';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { MoviesListComponent } from './components/movies-list/movies-list.component';
@@ -15,7 +16,7 @@ import { MoviesSliderComponent } from './components/movies-slider/movies-slider.
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
-import { SharedModule, PipesModule } from 'ticket-booking-library'
+import { SharedModule, PipesModule } from '@ticket-booking/ticket-booking-library'
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SharedModule, PipesModule } from 'ticket-booking-library'
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     ModalModule.forRoot(),
     SharedModule,

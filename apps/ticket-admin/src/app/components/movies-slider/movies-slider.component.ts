@@ -1,4 +1,4 @@
-import { DatabaseService } from 'ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/ticket-booking-library';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({

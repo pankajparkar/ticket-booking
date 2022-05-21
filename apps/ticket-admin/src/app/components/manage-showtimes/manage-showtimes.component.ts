@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { DatabaseService } from 'ticket-booking-library';
+import { DatabaseService } from '@ticket-booking/ticket-booking-library';
 
 @Component({
   selector: 'bmc-manage-showtimes',
