@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/movies/ui/grid/src",
+  "prefix": "ticket-booking",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/movies/ui/grid"],
+      "options": {
+        "jestConfig": "libs/movies/ui/grid/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/movies/ui/grid/**/*.ts",
+          "libs/movies/ui/grid/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

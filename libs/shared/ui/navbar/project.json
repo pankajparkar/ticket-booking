@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/shared/ui/navbar/src",
+  "prefix": "ticket-booking",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/ui/navbar"],
+      "options": {
+        "jestConfig": "libs/shared/ui/navbar/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/ui/navbar/**/*.ts",
+          "libs/shared/ui/navbar/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

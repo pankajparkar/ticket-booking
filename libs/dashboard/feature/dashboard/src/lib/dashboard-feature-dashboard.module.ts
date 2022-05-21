@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { PipesModule, SharedModule } from '@ticket-booking/ticket-booking-library';
+import { PipesModule } from '@ticket-booking/ticket-booking-library';
 import { MoviesUiSliderModule } from '@ticket-booking/movies/ui/slider';
 import { RouterModule } from '@angular/router';
 
@@ -13,7 +13,6 @@ import { ChartsVerticalBarChartModule } from '@ticket-booking/charts/vertical-ba
   exports: [DashboardComponent],
   imports: [
     CommonModule,
-    SharedModule,
     PipesModule,
     MoviesUiSliderModule,
     RouterModule,

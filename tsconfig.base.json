@@ -36,9 +36,31 @@
       "@ticket-booking/movies/feature/movies": [
         "libs/movies/feature/movies/src/index.ts"
       ],
+      "@ticket-booking/movies/ui/details-card": [
+        "libs/movies/ui/details-card/src/index.ts"
+      ],
+      "@ticket-booking/movies/ui/grid": ["libs/movies/ui/grid/src/index.ts"],
       "@ticket-booking/movies/ui/list": ["libs/movies/ui/list/src/index.ts"],
+      "@ticket-booking/movies/ui/preview-card": [
+        "libs/movies/ui/preview-card/src/index.ts"
+      ],
+      "@ticket-booking/movies/ui/search": [
+        "libs/movies/ui/search/src/index.ts"
+      ],
       "@ticket-booking/movies/ui/slider": [
         "libs/movies/ui/slider/src/index.ts"
+      ],
+      "@ticket-booking/shared/ui/footer": [
+        "libs/shared/ui/footer/src/index.ts"
+      ],
+      "@ticket-booking/shared/ui/golden-text": [
+        "libs/shared/ui/golden-text/src/index.ts"
+      ],
+      "@ticket-booking/shared/ui/navbar": [
+        "libs/shared/ui/navbar/src/index.ts"
+      ],
+      "@ticket-booking/shared/ui/showtimes": [
+        "libs/shared/ui/showtimes/src/index.ts"
       ],
       "@ticket-booking/shell/book-my-cinema": [
         "libs/shell/book-my-cinema/src/index.ts"

@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
-import { PipesModule, SharedModule } from '@ticket-booking/ticket-booking-library';
-import { MoviesUiSliderModule } from '@ticket-booking/movies/ui/slider';
+import { PipesModule } from '@ticket-booking/ticket-booking-library';
+import { MoviesUiDetailsCardModule } from '@ticket-booking/movies/ui/details-card';
+import { MoviesUiGridModule } from '@ticket-booking/movies/ui/grid';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -10,10 +11,10 @@ import { RouterModule } from '@angular/router';
   exports: [MovieDetailComponent],
   imports: [
     CommonModule,
-    SharedModule,
     PipesModule,
-    MoviesUiSliderModule,
     RouterModule,
+    MoviesUiDetailsCardModule,
+    MoviesUiGridModule,
   ],
 })
 export class MoviesFeatureDetailsModule { }

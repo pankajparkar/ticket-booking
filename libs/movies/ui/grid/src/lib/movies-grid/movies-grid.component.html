@@ -1,0 +1,12 @@
+<ng-container *ngIf="movies$ | async as movies">
+  <div class="moviegrid">
+    <div class="row">
+      <div *ngFor="let movie of movies" class="col-md-{{ 12 / columns }}">
+        <bmc-movie-preview-card
+          [movie]="movie"
+        >
+        </bmc-movie-preview-card>
+      </div>
+    </div>
+  </div>
+</ng-container>

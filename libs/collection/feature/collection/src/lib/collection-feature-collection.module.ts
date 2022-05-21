@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CollectionComponent } from './collection/collection.component';
-import { PipesModule, SharedModule } from '@ticket-booking/ticket-booking-library';
-import { MoviesUiSliderModule } from '@ticket-booking/movies/ui/slider';
+import { PipesModule } from '@ticket-booking/ticket-booking-library';
+import { SharedUiGoldenTextModule } from '@ticket-booking/shared/ui/golden-text';
+import { MoviesUiDetailsCardModule } from '@ticket-booking/movies/ui/details-card';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -10,10 +11,10 @@ import { RouterModule } from '@angular/router';
   exports: [CollectionComponent],
   imports: [
     CommonModule,
-    SharedModule,
     PipesModule,
-    MoviesUiSliderModule,
+    SharedUiGoldenTextModule,
     RouterModule,
+    MoviesUiDetailsCardModule,
   ],
 })
 export class CollectionFeatureCollectionModule { }
