@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { MoviesUiSliderModule } from '@ticket-booking/movies/ui/slider';
+import { MoviesUiGridModule } from '@ticket-booking/movies/ui/grid';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -10,6 +11,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     MoviesUiSliderModule,
+    MoviesUiGridModule,
     RouterModule,
   ],
 })
